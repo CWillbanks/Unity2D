@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: B2. TakeDamageTwo
+  m_EditorClassIdentifier: 
+  storyText: 'You get rushed by a group of brown monsters and shrink back down to
+
+    your
+    original size. There''s a higher set of bricks above you that you should be able
+    to reach or you could go back down and jump over the gap.
+
+    
+
+    Do you:
+
+    1.
+    Jump on top of the lower down bricks.
+
+    2. Jump back down and jump over the
+    second gap'
+  nextStates:
+  - {fileID: 11400000, guid: 51ca7ba8ceffa5b498c4ef271b84332c, type: 2}
+  - {fileID: 11400000, guid: dd9ebecb26ceddb40a1c2994c1b635f0, type: 2}
+  hiddenState: {fileID: 0}
+  death: {fileID: 0}
+  healthCheck: 1
+  dangerous: 1
+  powerUp: 0

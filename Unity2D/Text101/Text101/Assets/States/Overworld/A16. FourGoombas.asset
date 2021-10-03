@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: A16. FourGoombas
+  m_EditorClassIdentifier: 
+  storyText: "As you travel down the path, a group of four mushroom monsters shows
+    up in the near distance! It looks like there's a lone brick that you can jump
+    on above you to avoid them.\r\n\r\nDo you:\r\n1. Jump up on the brick\r\n2. Jump
+    on their heads\r\n3. Rush them\r"
+  nextStates:
+  - {fileID: 11400000, guid: d77a4cfb8d13edb4c8449e2f98a31f0c, type: 2}
+  - {fileID: 11400000, guid: e9c4c2ce376489d48a047fb7a5fc5851, type: 2}
+  - {fileID: 11400000, guid: 91a79edcd0d550041b7285fdd8ac0f50, type: 2}
+  hiddenState: {fileID: 11400000, guid: 4c50da23b60874e4d8c74fbb8c79bad6, type: 2}
+  death: {fileID: 11400000, guid: dc8c548b3e1b3a14591816b29eb59bde, type: 2}
+  healthCheck: 0
+  dangerous: 0
+  powerUp: 0
+  flagpoleCheck: 0
+  firstState: 0

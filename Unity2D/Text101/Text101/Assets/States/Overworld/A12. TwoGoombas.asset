@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: A12. TwoGoombas
+  m_EditorClassIdentifier: 
+  storyText: "As you find your footing, two more mushroom monsters lie ahead of you.
+    Above you are some blocks that look tricky to land on.\r\n\r\nDo you:\r\n1. Jump
+    on their heads\r\n2. Jump up on the blocks\r\n3. Rush them\r"
+  nextStates:
+  - {fileID: 11400000, guid: ae86e5adcb9f2cf46a5e015f6d40d87d, type: 2}
+  - {fileID: 11400000, guid: d8e0e76182057c14f988a60631d67afd, type: 2}
+  - {fileID: 11400000, guid: 0b9adf279b7bdd440b55b5ca79d9605b, type: 2}
+  hiddenState: {fileID: 11400000, guid: bd0708af41c9f5547b705876f667dd8b, type: 2}
+  death: {fileID: 11400000, guid: dc8c548b3e1b3a14591816b29eb59bde, type: 2}
+  healthCheck: 0
+  dangerous: 0
+  powerUp: 0
+  flagpoleCheck: 0
+  firstState: 0

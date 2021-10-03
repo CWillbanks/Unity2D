@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: A5. JumpingOverTheGap
+  m_EditorClassIdentifier: 
+  storyText: 'You jump over the gap and notice some bricks above your head. You also
+    see that strange question mark block again. It looks like you can get to higher
+    ground by jumping on top of them, or you can jump over the second gap in the
+    ground ahead.
+
+    
+
+    Do you:
+
+    1. Hit the question mark block.
+
+    2.
+    Jump on top of the blocks.
+
+    3. Jump over the second gap'
+  nextStates:
+  - {fileID: 11400000, guid: e70448b6ec7800e4b9cd2e438185a0f5, type: 2}
+  - {fileID: 11400000, guid: b4768eb86e58cdd4cb7af3f2d5bccd84, type: 2}
+  - {fileID: 11400000, guid: dd9ebecb26ceddb40a1c2994c1b635f0, type: 2}
+  hiddenState: {fileID: 11400000, guid: 40f1dc09672757a47adf3638db8c9879, type: 2}
+  death: {fileID: 11400000, guid: dc8c548b3e1b3a14591816b29eb59bde, type: 2}
+  healthCheck: 0
+  dangerous: 0
+  powerUp: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: A6. JumpingOverTheSecondGap
+  m_EditorClassIdentifier: 
+  storyText: 'You jump over the second gap. Two more brown mushroom monsters are
+    running straight for you!
+
+
+
+    Do you:
+
+    1. Jump on their heads.
+
+    2.
+    Rush them.'
+  nextStates:
+  - {fileID: 11400000, guid: 3e8f5ef2432347447b5279df25307147, type: 2}
+  - {fileID: 11400000, guid: 0fd3a008ea0a9d142a508d9946a02d4b, type: 2}
+  hiddenState: {fileID: 11400000, guid: 6fc6a0bea0610e2448a7a7bfcee18d4b, type: 2}
+  death: {fileID: 11400000, guid: dc8c548b3e1b3a14591816b29eb59bde, type: 2}
+  healthCheck: 0
+  dangerous: 0
+  powerUp: 0
+  flagpoleCheck: 0
+  firstState: 0

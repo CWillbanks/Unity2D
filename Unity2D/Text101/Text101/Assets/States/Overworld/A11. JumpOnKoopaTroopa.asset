@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: A11. JumpOnKoopaTroopa
+  m_EditorClassIdentifier: 
+  storyText: 'You jump on the green turtle monster, causing it to retreat into its
+    shell. As you land on top of the shell, it rockets in front of you, taking out
+    two mushroom monsters along the way. You decide to follow it as it takes out
+    two more mushroom monsters, but it ricochets off a flight of stairs and comes
+    hurtling straight towards you!
+
+    
+
+    1. Jump!
+
+    2. I can tank it!'
+  nextStates:
+  - {fileID: 11400000, guid: adb266b058fd59d44b3368f3211be213, type: 2}
+  - {fileID: 11400000, guid: 002dd234741334447878d9cde02f3c2b, type: 2}
+  hiddenState: {fileID: 11400000, guid: 4a1e7831c47313249b19b749a4d2466f, type: 2}
+  death: {fileID: 11400000, guid: a92a6ac6f427994419074c616b8ca207, type: 2}
+  healthCheck: 0
+  dangerous: 0
+  powerUp: 0
+  flagpoleCheck: 0
+  firstState: 0

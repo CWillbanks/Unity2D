@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: B3. TakeDamageThree
+  m_EditorClassIdentifier: 
+  storyText: 'You rush the enemy, but it''s no use! They run right through you and
+    cause you to shrink back to your original height.
+
+    
+
+    1. Continue'
+  nextStates:
+  - {fileID: 11400000, guid: bedfe874e3d487e4892a7878a1190905, type: 2}
+  hiddenState: {fileID: 0}
+  death: {fileID: 0}
+  healthCheck: 1
+  dangerous: 1
+  powerUp: 0

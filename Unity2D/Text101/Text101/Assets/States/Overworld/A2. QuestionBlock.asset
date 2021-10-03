@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674ec45c3ac2a374594cb4f3b112a5f3, type: 3}
+  m_Name: A2. QuestionBlock
+  m_EditorClassIdentifier: 
+  storyText: 'You stomp on the monster defeating it and propelling yourself forward.
+    Yahoo! Now you come upon a yellow question block suspended above you and a green
+    pipe in the distance.
+
+
+    Do you:
+
+    1 Hit the yellow question block.
+
+    2
+    Continue to the green pipes.'
+  nextStates:
+  - {fileID: 11400000, guid: b11142c3746985d41b659270882482af, type: 2}
+  - {fileID: 11400000, guid: 0518fef5706ac4b4fb640254ea28caf1, type: 2}
+  lethal: 0
+  powerUp: 0
+  fireBall: 0
+  hidden: 0
